@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Icon.styl';
+import styles from './Icon.css';
 
 const Icon = (props) => (
     <img src={props.path}/>

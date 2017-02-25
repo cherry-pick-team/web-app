@@ -1,0 +1,16 @@
+.auth {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1E88E5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth__form {
+  width: 300px;
+  height: 300px;
+}

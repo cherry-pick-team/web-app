@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Button.styl';
+import styles from './Button.css';
 import Icon from '../Icon/Icon';
 
 const Button = (props) => (
