@@ -5,9 +5,9 @@ import LoginForm from '../../containers/LoginForm/LoginForm';
 
 
 const Auth = (props) => (
-    <div className="auth">
+    <div className={styles.auth}>
         <Card>
-            <div className="auth__form">
+            <div className={styles.authForm}>
                 <LoginForm/>
             </div>
         </Card>

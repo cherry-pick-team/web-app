@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Card.css';
 
 const Card = (props) => (
-    <div className={'card card_level-' + props.level} style={{backgroundColor : props.bgColor}}>
+    <div className={styles.card + ' ' + styles['card_level-' + props.level]} style={{backgroundColor : props.bgColor}}>
         {props.children}
     </div>
 );

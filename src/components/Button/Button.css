@@ -1,3 +1,37 @@
 .button {
+    border: 0;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    height: 45px;
+    width: 100%;
+    display: block;
+}
+
+.regular {
+    composes: button;
+    color: white;
+    background: #15CD72;
+}
+
+.wrapContent {
+    composes: button;
+    color: white;
+    background: #15CD72;
+    width: auto;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.icon {
+
+}
+
+.text {
 
 }

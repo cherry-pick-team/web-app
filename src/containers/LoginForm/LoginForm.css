@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+    font-weight: 300;
+    color: #444;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    letter-spacing: 0;
+}
+
+.social_auth {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 5px auto;
+}
