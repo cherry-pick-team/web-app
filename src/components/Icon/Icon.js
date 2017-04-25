@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Icon.css';
 
 const Icon = (props) => (
-    <img className={styles.icon} src={props.path} style={{width: props.width}} role="presentation"/>
+    <img className={styles.icon} src={props.path} style={{width: props.width}} alt=""/>
 );
 
 Icon.defaultProps = {
@@ -10,8 +11,8 @@ Icon.defaultProps = {
 };
 
 Icon.propTypes = {
-    path: React.PropTypes.string.isRequired,
-    width: React.PropTypes.string
+    path: PropTypes.string.isRequired,
+    width:PropTypes.string
 };
 
 export default Icon;

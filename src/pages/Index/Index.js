@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router';
 import FullPageLayout from '../../components/FullPageLayout/FullPageLayout';
 import HeadMenu from '../../components/HeadMenu/HeadMenu';
 import SearchForm from '../../components/SearchForm/SearchForm';

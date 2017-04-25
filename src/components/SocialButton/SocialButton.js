@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './SocialButton.css';
 import Icon from '../Icon/Icon';
 
@@ -35,8 +36,8 @@ SocialButton.defaultProps = {
 };
 
 SocialButton.propTypes = {
-    type: React.PropTypes.oneOf(['VK', 'Google', 'FB']).isRequired,
-    onClick: React.PropTypes.func
+    type: PropTypes.oneOf(['VK', 'Google', 'FB']).isRequired,
+    onClick: PropTypes.func
 };
 
 export default SocialButton;

@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './Button.css';
 import Icon from '../Icon/Icon';
 
@@ -28,11 +29,11 @@ Button.defaultProps = {
 };
 
 Button.propTypes = {
-    type: React.PropTypes.oneOf(['primary', 'regular', 'disabled', 'wrapContent']),
-    text: React.PropTypes.string,
-    icon: React.PropTypes.string,
-    onClick: React.PropTypes.func,
-    inline: React.PropTypes.bool
+    type: PropTypes.oneOf(['primary', 'regular', 'disabled', 'wrapContent']),
+    text: PropTypes.string,
+    icon: PropTypes.string,
+    onClick: PropTypes.func,
+    inline: PropTypes.bool
 };
 
 export default Button;
