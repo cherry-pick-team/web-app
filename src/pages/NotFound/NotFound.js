@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './NotFound.styl';
+import styles from './NotFound.css';
 
 const NotFound = (props) => (
     <div>

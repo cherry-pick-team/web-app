@@ -2,15 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
+import {Router, Route, browserHistory} from 'react-router';
 
-import App from './layouts/App/App';
+import Index from './pages/Index/Index';
+import NotFound from './pages/NotFound/NotFound';
 import rootReducer from './reducers';
+
 
 let store = createStore(rootReducer);
 
 ReactDOM.render(
-    <Provider store={store}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+	<Provider store={store}>
+		<Router history={browserHistory}>
+			<Route path="/" component={Index}/>
+			<Route path="*" component={NotFound}/>
+		</Router>
+	</Provider>,
+	document.getElementById('root')
 );

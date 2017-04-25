@@ -3,13 +3,13 @@ import styles from './Button.css';
 import Icon from '../Icon/Icon';
 
 const Button = (props) => (
-    <button onClick={props.onClick} className={[styles[props.type], props.inline ? styles.inline : ''].join(' ')}>
+    <button onClick={props.onClick} className={styles[props.type]}>
 
         {props.icon ? (
             <span className={styles.icon}>
                 <Icon path={props.icon}/>
             </span>
-        ): ''}
+        ) : ''}
 
         <span className={styles.text}>
             {props.text}
@@ -22,7 +22,8 @@ Button.defaultProps = {
     type: 'regular',
     text: '',
     icon: '',
-    onClick: () => {},
+    onClick: () => {
+    },
     inline: false
 };
 
