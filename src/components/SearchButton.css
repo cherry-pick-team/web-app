@@ -1,0 +1,19 @@
+.search-button {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #36388b !important;
+    letter-spacing: 1px;
+    padding: 14px 45px;
+    line-height: 44px;
+    height: 44px;
+    text-transform: uppercase;
+    transition: all .3s cubic-bezier(.215, .61, .352, 1);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.search-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff !important;
+}

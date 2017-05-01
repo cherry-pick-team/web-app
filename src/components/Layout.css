@@ -1,0 +1,38 @@
+.layout {
+
+}
+
+.layout_bg_gradient {
+    position: relative;
+    min-height: 100vh;
+    overflow-y: auto;
+    background: linear-gradient(-32deg, #3b1b77 0%, #36388b 100%);
+    color: #fff;
+}
+
+.layout_bg_white {
+    background: #fff;
+    color: #666;
+}
+
+.layout__content {
+    width: 100%;
+    z-index: 2;
+}
+
+.layout__content_centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    max-height: 100%;
+}
+
+.layout_bg_gradient a {
+    color: #fff;
+}
+
+.layout_bg_gradient a:hover {
+    opacity: .7;
+}
